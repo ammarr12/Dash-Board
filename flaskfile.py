@@ -8,7 +8,7 @@ app=Flask(__name__)
 @app.route("/Dashboard")
     
 def make_bargraph():
-    df=pd.read_csv("hospital data analysis - Copy.csv")
+    df=pd.read_csv("hospital data analysis.csv")
 
     genders=df["Gender"].value_counts().index.tolist()
     num=df["Gender"].value_counts().values.tolist()
