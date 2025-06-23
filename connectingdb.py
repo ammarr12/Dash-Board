@@ -1,8 +1,12 @@
 import mysql.connector
-print("helloowww")
-# mydb = mysql.connector.connect(
-#     host = "localhost",
-#     user = "yourusername",
-#     password = "your_password"
-# )
-# print(mydb)
+
+mydb = mysql.connector.connect(
+    
+    host = "127.0.0.1",
+    user = "root",
+    password = "qwerty1234"
+)
+
+cursor=mydb.cursor()
+cursor.execute("Use Dashboard")
+cursor.execute("Select * from HospitalDataAnalysis")
