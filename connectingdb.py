@@ -7,6 +7,10 @@ mydb = mysql.connector.connect(
     password = "qwerty1234"
 )
 
-cursor=mydb.cursor()
-cursor.execute("Use Dashboard")
-cursor.execute("Select * from HospitalDataAnalysis")
+
+
+
+
+
+
+mydb.close()
