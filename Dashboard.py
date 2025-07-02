@@ -347,6 +347,7 @@ class Age_Section:
         self.x=ax.set_xlabel("Number Of Patients")
         ax.set_title("Age Distribution graph")
 
+
     
     def show_satisfaction_score_chart(self):
         self.satisfaction_score.tight_layout()
