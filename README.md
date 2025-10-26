@@ -1,2 +1,2 @@
 # 🚀 Tests and Experimenting
-small experimenting i was doing with flask, might make my dashboard app in the future!.
+small experimenting i was doing with flask, might make my dashboard app in flask in the future!.
