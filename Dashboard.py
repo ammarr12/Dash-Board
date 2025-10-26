@@ -259,7 +259,8 @@ class Main_Screen:
        
        self.agegrp_disease_chart,ax=plt.subplots(figsize=(3,3))
        self.myexplode = [0,0,0,0.1,0,0]
-       ax.pie([self.percentage_25_to_30,self.percentage_30_to_40,self.percentage_40_to_50,self.percentage_50_to_60,self.percentage_60_to_70,self.percentage_70_to_80],labels=["20s","30s","40s","50s","60s","70s"],explode=self.myexplode,colors=['#1abc9c', '#f39c12', '#9b59b6', '#e74c3c', '#5dade2', '#34495e'])
+       print(self.percentage_25_to_30,"\n",self.percentage_30_to_40)
+       ax.pie([int(self.percentage_25_to_30),int(self.percentage_30_to_40),int(self.percentage_40_to_50),int(self.percentage_50_to_60),int(self.percentage_60_to_70),int(self.percentage_70_to_80)],labels=["20s","30s","40s","50s","60s","70s"],explode=self.myexplode,colors=['#1abc9c', '#f39c12', '#9b59b6', '#e74c3c', '#5dade2', '#34495e'])
        ax.set_title("Age Group Disease Analysis")
 
 class Age_Section:

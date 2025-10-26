@@ -4,12 +4,12 @@ mydb = mysql.connector.connect(
     
     host = "127.0.0.1",
     user = "root",
-    password = "qwerty1234"
+    password = "ammar123"
 )
 
 cursor=mydb.cursor()
-cursor.execute("use dashboard")
-cursor.execute("select * from hospitaldataanalysis")
+cursor.execute("use hospitaldataanalysis")
+cursor.execute("select * from hospitaldata")
 
 rows=cursor.fetchall()
 columns=[i[0] for i in cursor.description] 
