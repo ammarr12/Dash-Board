@@ -16,6 +16,6 @@ columns=[i[0] for i in cursor.description]
 del rows [0]
 del rows [0]
 
-print(rows)
+
 cursor.close()
 mydb.close()
