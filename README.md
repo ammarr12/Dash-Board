@@ -2,8 +2,8 @@
 The "DASH-BOARD" project
 
 ## 🧠 Overview
-I built this project to understand basic front-end concepts and get an idea of how to build an app and deal 
-with the features. This is a dashboard i built consisting of different charts,graphs and insights i did on
+I built this project to understand basic front-end concepts and get an idea of how to build an app and deal
+and make my own widgets. This is a dashboard i built consisting of different charts,graphs and insights i did on
 a medical dataset.
 
 
